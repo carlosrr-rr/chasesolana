@@ -1,0 +1,8 @@
+{
+    "description": "这是一个帮助你密切关注Solana (SOL) 加密货币走势的应用程序。它在检测到上涨趋势时建议买入（绿色），在识别出下跌时建议卖出（红色）。",
+    "walletLabel": "用于接收 SOL（Solana 网络）的地址：",
+    "copied": "已复制！",
+    "donation": "从小处开始，发挥想象。如果这个应用帮助了你，欢迎捐赠支持。",
+    "footer": "我是一名独立开发者，非常感谢你的支持。chasesol4na@gmail.com 。"
+  }
+  

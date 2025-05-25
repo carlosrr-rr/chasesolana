@@ -1,0 +1,8 @@
+{
+    "description": "Este é um aplicativo projetado para ajudar você a acompanhar de perto o comportamento da criptomoeda Solana (SOL). Ele recomenda comprar (verde) quando detecta uma alta, e vender (vermelho) quando identifica uma queda.",
+    "walletLabel": "Endereço para receber SOL na rede Solana:",
+    "copied": "Copiado!",
+    "donation": "Comece pequeno, imagine o potencial. Se este app te ajudou, considere fazer uma doação.",
+    "footer": "Sou um desenvolvedor independente e agradeço muito pelo seu apoio. chasesol4na@gmail.com ."
+  }
+  

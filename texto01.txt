@@ -1,0 +1,7 @@
+Chasesol4na
+Es una aplicación diseñada para ayudarte a seguir de cerca el comportamiento de la criptomoneda Solana (SOL). Su objetivo es simple: recomendar una posible compra (color VERDE) cuando detecta una tendencia alcista, y sugerir una venta (color ROJO) cuando identifica una caída, lo que permite posicionarse en monedas estables como USDC, USDT, entre otras.
+Con este enfoque, puedes aprovechar las subidas del mercado y protegerte durante las bajadas. Incluso si el precio de Solana se mantiene igual despues de un año, podrías haber obtenido beneficios aprovechando su volatilidad.
+EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP
+prueba imaginando, continúa con poco y Si esta app te ayudó, considera apoyarme con una donación aquí:
+Soy un programador independiente y agradecería mucho tu apoyo.
+

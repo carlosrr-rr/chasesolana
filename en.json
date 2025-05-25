@@ -1,0 +1,8 @@
+{
+    "description": "This app helps you track Solana (SOL) trends. It suggests buying (green) when the trend is up, and selling (red) when it's down.",
+    "walletLabel": "Wallet address to receive SOL on Solana network:",
+    "copied": "Copied!",
+    "donation": "Start small, imagine possibilities. If this app helped, feel free to donate.",
+    "footer": "I'm an independent developer and would really appreciate your support."
+  }
+  

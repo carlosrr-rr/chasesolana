@@ -1,1 +1,3 @@
 https://github.com/carlosrr-rr/chasesolana.git
+git remote add origin https://github.com/carlosrr-rr/chasesolana.git
+https://carlosrr-rr.github.io/chasesolana/
