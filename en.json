@@ -1,8 +1,11 @@
 {
-    "description": "This app helps you track Solana (SOL) trends. It suggests buying (green) when the trend is up, and selling (red) when it's down.",
-    "walletLabel": "Wallet address to receive SOL on Solana network:",
-    "copied": "Copied!",
-    "donation": "Start small, imagine possibilities. If this app helped, feel free to donate.",
-    "footer": "I'm an independent developer and would really appreciate your support."
-  }
-  
+  "title": "Chasesol4na",
+  "description": "This app is designed to help you closely follow the behavior of the cryptocurrency Solana (SOL). It recommends buying (green) when it detects a rise, and selling (red) when it detects a fall.",
+  "explanation": "The app alerts you when to buy and sell using visual signals:\nGreen screen: Time to buy (enter the trade).\nRed screen: Time to sell (exit the trade).\nIt works best when the currency is unstable, and you only need about 10 transactions per year (5 buys and 5 sells). With this method, which I have tested for years, you can achieve good annual results.",
+  "donation": "Try imagining, start small. If this app helped you, consider making a donation.",
+  "walletLabel": "Address to receive SOL on the Solana network:",
+  "copied": "Copied!",
+  "downloadBtn": "Download APK from GitHub",
+  "notice": "⚠️ To install the app, you must allow installation from unknown sources on your Android device.",
+  "footer": "I'm an independent developer and would greatly appreciate your support. chasesol4na@gmail.com"
+}
