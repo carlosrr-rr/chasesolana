@@ -3,143 +3,231 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chasesol4na</title>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <title>Chasesol4na - Solana Market Analytics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary-color: #00a8e8;  /* Azul profesional */
+      --secondary-color: #2d3436;
+      --accent-color: #00d2d3;
+      --text-color: #2d3436;
+      --light-bg: #f5f6fa;
+      --card-bg: #ffffff;
+      --border-radius: 8px;
+      --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #e0f7fa;
-      color: #333;
-      padding: 20px;
+      font-family: 'Open Sans', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    header {
       text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
 
     h1 {
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 2.5em;
-      color: #007BFF;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+      letter-spacing: -0.5px;
+    }
+
+    .content-card {
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      padding: 30px;
+      margin-bottom: 30px;
     }
 
     img {
       max-width: 100%;
       height: auto;
-      border-radius: 10px;
-      margin: 20px 0;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: var(--border-radius);
+      margin: 25px 0;
+      display: block;
     }
 
-    .medium-img {
-      max-width: 50%;
+    .chart-container {
+      margin: 40px 0;
+    }
+
+    .chart-img {
+      width: 80%;
+      margin: 0 auto;
     }
 
     .wallet-section {
-      margin-top: 20px;
+      margin: 40px 0;
+      text-align: center;
     }
 
     .wallet-label {
-      font-weight: bold;
-      margin-bottom: 5px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      color: var(--secondary-color);
+      font-size: 1.1rem;
     }
 
     .wallet {
-      background: #ffffffcc;
-      padding: 10px;
-      margin: 10px auto;
-      border: 1px solid #ccc;
-      border-radius: 8px;
+      background: var(--card-bg);
+      padding: 15px;
+      margin: 15px auto;
+      border: 1px solid #e0e0e0;
+      border-radius: var(--border-radius);
       max-width: 100%;
+      width: 500px;
       word-wrap: break-word;
-      font-family: monospace;
+      font-family: 'Courier New', monospace;
       position: relative;
       cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+      color: var(--secondary-color);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     }
 
     .wallet:hover {
-      background: #e0f2f1;
+      background: #f8f9fa;
+      border-color: var(--primary-color);
     }
 
     .copied {
-      color: green;
-      font-size: 0.9em;
-      margin-top: 5px;
+      color: #27ae60;
+      font-size: 0.9rem;
+      margin-top: 8px;
       display: none;
+      font-weight: 600;
     }
 
-    .download-btn {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #28a745;
+    .cta-button {
+      margin: 30px auto;
+      padding: 12px 30px;
+      background-color: var(--primary-color);
       color: white;
-      font-size: 1em;
+      font-size: 1rem;
+      font-weight: 600;
       border: none;
-      border-radius: 5px;
+      border-radius: var(--border-radius);
       cursor: pointer;
       text-decoration: none;
       display: inline-block;
-      font-weight: bold;
-      transition: background-color 0.3s;
+      transition: all 0.3s ease;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 168, 232, 0.3);
     }
 
-    .download-btn:hover {
-      background-color: #218838;
+    .cta-button:hover {
+      background-color: #0095d9;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0, 168, 232, 0.4);
     }
 
-    .notice {
-      font-size: 0.9em;
-      color: red;
-      margin-top: 10px;
+    .disclaimer {
+      font-size: 0.85rem;
+      color: #7f8c8d;
+      margin-top: 15px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: var(--border-radius);
+      border-left: 4px solid #e74c3c;
     }
 
     p {
-      line-height: 1.6;
-      margin-bottom: 1.2em;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+      color: var(--text-color);
     }
 
     footer {
-      font-style: italic;
-      margin-top: 30px;
-      font-size: 0.95em;
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 0.9rem;
+      color: #7f8c8d;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 30px 15px;
+      }
+      
+      h1 {
+        font-size: 2.2rem;
+      }
+      
+      .chart-img {
+        width: 100%;
+      }
+      
+      .wallet {
+        width: 100%;
+        font-size: 0.8rem;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1 data-i18n="title">Chasesol4na</h1>
+      <p data-i18n="description">Loading...</p>
+    </header>
 
-  <h1 data-i18n="title">Chasesol4na</h1>
-
-  <img src="graf.png" alt="SOL behavior chart">
-
-  <p data-i18n="description">Loading...</p>
-
-  <p data-i18n="explanation">Loading explanation...</p>
-
-  <p data-i18n="donation">Loading...</p>
-
-  <p data-i18n="walletLabel">Wallet address:</p>
-
-  <img src="bille.jpeg" alt="Wallet image" class="medium-img">
-
-  <div class="wallet-section">
-    <div class="wallet" onclick="copiarAlPortapapeles()">
-      EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP
-      <div class="copied" id="copiado" data-i18n="copied">Copied!</div>
+    <div class="content-card">
+      <div class="chart-container">
+        <img src="graf.png" alt="SOL Market Behavior Analysis" class="chart-img">
+      </div>
+      
+      <p data-i18n="explanation">Loading explanation...</p>
     </div>
+
+    <div class="content-card">
+      <p data-i18n="donation">Loading...</p>
+      
+      <div class="wallet-section">
+        <div class="wallet-label" data-i18n="walletLabel">Wallet address:</div>
+        <img src="bille.jpeg" alt="Solana Wallet QR Code" style="max-width: 300px; margin: 0 auto;">
+        
+        <div class="wallet" onclick="copiarAlPortapapeles()">
+          EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP
+          <div class="copied" id="copiado" data-i18n="copied">Copied!</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center;">
+      <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
+         class="cta-button" 
+         download 
+         data-i18n="downloadBtn">
+        Download APK from GitHub
+      </a>
+      
+      <p class="disclaimer" data-i18n="notice">
+        ⚠️ For Android installation, you'll need to allow installation from unknown sources in your device settings.
+      </p>
+    </div>
+
+    <footer data-i18n="footer">Loading...</footer>
   </div>
-
-  <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
-     class="download-btn" 
-     download 
-     data-i18n="downloadBtn">
-    Descargar APK desde GitHub
-  </a>
-
-  <p class="notice" data-i18n="notice">
-    ⚠️ Para instalar la app, deberás aceptar la instalación desde fuentes desconocidas en tu dispositivo Android.
-  </p>
-
-  <footer data-i18n="footer">Loading...</footer>
 
   <script>
     function copiarAlPortapapeles() {

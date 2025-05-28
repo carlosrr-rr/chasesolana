@@ -11,6 +11,48 @@ Pantalla verde: Es el momento de comprar (entrar en la operación).
 Pantalla roja: Es el momento de vender (salir de la operación).
 
 Funciona mejor cuando la moneda está inestable, y solo necesitas hacer unas 10 transacciones al año (5 compras y 5 ventas). Con este método, que he probado durante años, puedes obtener buenos resultados anuales.
+Guía sencilla para empezar en Solana si eres nuevo en criptomonedas:
 
+Primero, descarga la billetera Phantom, que es la más usada en la red Solana. Al registrarte, es muy importante que anotes las palabras de recuperación en un papel y las guardes en un lugar seguro, ya que son tu única forma de recuperar el acceso si pierdes el dispositivo.
+
+Una vez tengas tu billetera Phantom lista, puedes comprar Solana (SOL) directamente dentro de la app usando tu tarjeta de débito. Otra opción es transferir SOL desde otra plataforma que uses, como Belo, Binance o cualquier exchange donde ya tengas criptomonedas.
+
+Ahora, para saber cuándo es buen momento para tener SOL o dólares estables como USDC o USDT, descarga la aplicación ChaseSol4na. Esta app te dará una señal clara: si la pantalla está verde, significa que el mercado está favorable y conviene mantener SOL. Si la pantalla se pone roja, es mejor cambiar a dólares estables para proteger tu dinero durante los momentos bajistas.
+
+Esta estrategia, aunque simple, puede darte buenos resultados a largo plazo. Es normal que haya períodos con pérdidas temporales, pero si mantienes la calma y sigues las señales, con el tiempo (un año o más) verás que puede ser muy favorable. Recuerda empezar con cantidades pequeñas hasta que te sientas cómodo con el proceso. Lo más importante es nunca arriesgar dinero que no puedas permitirte perder.
+
+Si tienes dudas sobre algún paso, ¡avísame y te ayudo con gusto!
+
+
+¿Eres nuevo en criptomonedas? Te explico una forma fácil de empezar:
+
+Descarga la billetera Phantom, que funciona con la red Solana.
+
+Crea tu cuenta y guarda las palabras semilla (muy importante: escríbelas en papel y guárdalas bien).
+
+Compra Solana (SOL) directamente desde la app con tu tarjeta de débito o transfiérela desde otra billetera (yo, por ejemplo, uso la app Belo).
+
+Cuando ya tengas SOL en tu billetera, descarga la app Chasesol4na.
+
+Esta app te ayuda a decidir qué te conviene
+
+
+Si estás empezando en el mundo de las criptomonedas, te explico una forma sencilla de comenzar:
+
+Descarga la billetera Phantom, que es nativa de la red Solana.
+
+Crea tu cuenta y anota las palabras semilla (o frase de recuperación) en un papel. Este paso es fundamental, ya que esas palabras te permiten recuperar tu billetera si pierdes el acceso. No las guardes en tu celular ni las compartas con nadie.
+
+Compra la criptomoneda Solana (SOL). Puedes hacerlo directamente desde la billetera Phantom usando tu tarjeta de débito, o bien transferir SOL desde otra billetera. En mi caso, yo la transferí desde la aplicación Belo.
+
+Una vez que tengas SOL en tu billetera, descarga la aplicación Chasesol4na. Esta app te ayuda a decidir si te conviene mantener tus Solana o cambiarlas por monedas estables, dependiendo del estado del mercado.
+
+El funcionamiento es muy simple:
+
+Si la pantalla de la app está en verde, te conviene mantener Solana (SOL).
+
+Si la pantalla está en rojo, lo recomendable es cambiar tus SOL por monedas estables como USDC o USDT para proteger tu inversión.
+
+Siguiendo esta estrategia durante un año, es posible que en momentos bajistas tengas algunas pérdidas temporales, pero a largo plazo, a mí me ha dado buenos resultados.
 
 
