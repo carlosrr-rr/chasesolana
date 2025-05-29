@@ -5,7 +5,8 @@
   "donation": "Prueba imaginando, comienza con poco. Si esta app te ayudó, considera hacer una donación.",
   "walletLabel": "Dirección para recibir SOL en la red Solana:",
   "copied": "¡Copiado!",
-  "downloadBtn": "Descargar APK desde GitHub",
+  "downloadBtn": "Descargar APK para teléfono",
+  "downloadWinBtn": "Descargar App para Windows",
   "notice": "⚠️ Para instalar la app, deberás aceptar la instalación desde fuentes desconocidas en tu dispositivo Android.",
   "footer": "Soy un programador independiente y agradecería mucho tu apoyo. chasesol4na@gmail.com"
 }

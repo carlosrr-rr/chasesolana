@@ -117,7 +117,7 @@
     }
 
     .cta-button {
-      margin: 30px auto;
+      margin: 15px 10px;
       padding: 12px 30px;
       background-color: var(--primary-color);
       color: white;
@@ -139,14 +139,41 @@
       box-shadow: 0 6px 15px rgba(0, 168, 232, 0.4);
     }
 
+    .cta-button.windows {
+      background-color: #0078d4;
+      box-shadow: 0 4px 10px rgba(0, 120, 212, 0.3);
+    }
+
+    .cta-button.windows:hover {
+      background-color: #106ebe;
+      box-shadow: 0 6px 15px rgba(0, 120, 212, 0.4);
+    }
+
+    .download-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .buttons-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+
     .disclaimer {
       font-size: 0.85rem;
       color: #7f8c8d;
-      margin-top: 15px;
-      padding: 15px;
+      margin-top: 10px;
+      padding: 12px;
       background-color: #f8f9fa;
       border-radius: var(--border-radius);
       border-left: 4px solid #e74c3c;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     p {
@@ -181,6 +208,16 @@
         width: 100%;
         font-size: 0.8rem;
       }
+
+      .buttons-container {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .cta-button {
+        width: 100%;
+        max-width: 300px;
+      }
     }
   </style>
 </head>
@@ -213,13 +250,22 @@
       </div>
     </div>
 
-    <div style="text-align: center;">
-      <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
-         class="cta-button" 
-         download 
-         data-i18n="downloadBtn">
-        Download APK from GitHub
-      </a>
+    <div class="download-section">
+      <div class="buttons-container">
+        <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
+           class="cta-button" 
+           download 
+           data-i18n="downloadBtn">
+          Download APK from GitHub
+        </a>
+        
+        <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/chasesol-windows.zip" 
+           class="cta-button windows" 
+           download 
+           data-i18n="downloadWinBtn">
+          Download Windows App
+        </a>
+      </div>
       
       <p class="disclaimer" data-i18n="notice">
         ⚠️ For Android installation, you'll need to allow installation from unknown sources in your device settings.
@@ -240,7 +286,7 @@
     }
 
     const defaultLang = 'es';
-    const supportedLangs = ['en', 'es', 'fr', 'zh', 'pt', 'ru', 'ar'];
+    const supportedLangs = ['en', 'es', 'fr', 'zh', 'pt', 'ru', 'ar', 'hi'];
     const browserLang = (navigator.language || navigator.userLanguage).split('-')[0];
     const lang = supportedLangs.includes(browserLang) ? browserLang : defaultLang;
 

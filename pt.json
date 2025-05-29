@@ -1,11 +1,12 @@
 {
   "title": "Chasesol4na",
-  "description": "Este aplicativo foi desenvolvido para ajudar você a acompanhar de perto o comportamento da criptomoeda Solana (SOL). Ele recomenda comprar (verde) quando detecta uma alta e vender (vermelho) quando detecta uma queda.",
-  "explanation": "O aplicativo avisa quando comprar e vender com sinais visuais:\nTela verde: É hora de comprar (entrar na operação).\nTela vermelha: É hora de vender (sair da operação).\nFunciona melhor quando a moeda está instável. Você precisará de cerca de 10 transações por ano (5 compras e 5 vendas). Testei esse método por anos, e ele pode trazer bons resultados anuais.",
-  "donation": "Imagine, comece pequeno. Se este app te ajudou, considere fazer uma doação.",
+  "description": "Uma aplicação projetada para ajudá-lo a acompanhar de perto o comportamento da criptomoeda Solana (SOL). Recomenda comprar (verde) quando detecta uma alta, e vender (vermelho) quando vê uma queda.",
+  "explanation": "O aplicativo te avisa quando comprar e vender com sinais visuais:\nTela verde: É hora de comprar (entrar na operação).\nTela vermelha: É hora de vender (sair da operação).\nFunciona melhor quando a moeda está instável, e você só precisa fazer cerca de 10 transações por ano (5 compras e 5 vendas). Com este método, que testei por anos, você pode obter bons retornos anuais.",
+  "donation": "Experimente imaginando, comece com pouco. Se este app te ajudou, considere fazer uma doação.",
   "walletLabel": "Endereço para receber SOL na rede Solana:",
   "copied": "Copiado!",
-  "downloadBtn": "Baixar APK do GitHub",
-  "notice": "⚠️ Para instalar o aplicativo, ative a instalação de fontes desconhecidas no seu dispositivo Android.",
-  "footer": "Sou um desenvolvedor independente e ficaria muito grato pelo seu apoio. chasesol4na@gmail.com"
+  "downloadBtn": "Baixar APK para Celular",
+  "downloadWinBtn": "Baixar App para Windows",
+  "notice": "⚠️ Para instalar o app, você precisará permitir instalação de fontes desconhecidas no seu dispositivo Android.",
+  "footer": "Sou um programador independente e agradeceria muito seu apoio. chasesol4na@gmail.com"
 }
