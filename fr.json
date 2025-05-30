@@ -1,5 +1,5 @@
 {
-    "title": "Chasesol4na",
+    "title": "Chasesol",
     "description": "Cette application est conçue pour vous aider à suivre de près le comportement de la cryptomonnaie Solana (SOL). Elle recommande d’acheter (vert) lorsqu’une hausse est détectée, et de vendre (rouge) en cas de baisse.",
     "explanation": "L'application vous avertit quand acheter et vendre grâce à des signaux visuels :\nÉcran vert : C’est le moment d’acheter (entrer en position).\nÉcran rouge : C’est le moment de vendre (sortir de la position).\nElle fonctionne mieux lorsque la monnaie est instable. Environ 10 transactions par an suffisent (5 achats et 5 ventes). J’ai testé cette méthode pendant des années, et elle peut donner de bons résultats annuels.",
     "donation": "Imaginez, commencez petit. Si cette application vous a aidé, envisagez de faire un don.",

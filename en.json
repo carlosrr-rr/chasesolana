@@ -1,5 +1,5 @@
 {
-  "title": "Chasesol4na",
+  "title": "Chasesol",
   "description": "An application designed to help you closely track the behavior of Solana (SOL) cryptocurrency. It recommends buying (green) when it detects an uptrend, and selling (red) when it sees a downtrend.",
   "explanation": "The app alerts you when to buy and sell with visual signals:\nGreen screen: Time to buy (enter the trade).\nRed screen: Time to sell (exit the trade).\nIt works best when the coin is volatile, and you only need to make about 10 transactions per year (5 buys and 5 sells). With this method, which I've tested for years, you can achieve good annual returns.",
   "donation": "Try it out, start small. If this app helped you, consider making a donation.",
