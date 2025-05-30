@@ -1,10 +1,11 @@
 {
-    "title": "Chasesol",
+    "title": "Cazasol",
     "description": "Cette application est conçue pour vous aider à suivre de près le comportement de la cryptomonnaie Solana (SOL). Elle recommande d’acheter (vert) lorsqu’une hausse est détectée, et de vendre (rouge) en cas de baisse.",
     "explanation": "L'application vous avertit quand acheter et vendre grâce à des signaux visuels :\nÉcran vert : C’est le moment d’acheter (entrer en position).\nÉcran rouge : C’est le moment de vendre (sortir de la position).\nElle fonctionne mieux lorsque la monnaie est instable. Environ 10 transactions par an suffisent (5 achats et 5 ventes). J’ai testé cette méthode pendant des années, et elle peut donner de bons résultats annuels.",
     "donation": "Imaginez, commencez petit. Si cette application vous a aidé, envisagez de faire un don.",
     "walletLabel": "Adresse pour recevoir des SOL sur le réseau Solana :",
     "copied": "Copié !",
+    "walletLabelbinance": "Adresse pour recevoir SOL, USDC, USDT, etc. sur le réseau Binance BEP-20:",
     "downloadBtn": "Télécharger l’APK depuis GitHub",
     "notice": "⚠️ Pour installer l'application, vous devez autoriser les sources inconnues sur votre appareil Android.",
     "footer": "Je suis un développeur indépendant et j’apprécierais beaucoup votre soutien. chasesol4na@gmail.com"

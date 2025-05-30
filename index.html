@@ -246,22 +246,35 @@
       </div>
       
       <p data-i18n="explanation">Loading explanation...</p>
+      <p data-i18n="donation">Loading...</p>
+          
     </div>
 
     <div class="content-card">
-      <p data-i18n="donation">Loading...</p>
-      
       <div class="wallet-section">
         <div class="wallet-label" data-i18n="walletLabel">Wallet address:</div>
         <img src="bille.jpeg" alt="Solana Wallet QR Code" style="max-width: 300px; margin: 0 auto;">
         
-        <div class="wallet" onclick="copiarAlPortapapeles()">
+        <div class="wallet" onclick="copiarAlPortapapeles('solana')">
           EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP
-          <div class="copied" id="copiado" data-i18n="copied">Copied!</div>
+          <div class="copied" id="copiado-solana" data-i18n="copied">Copied!</div>
         </div>
       </div>
     </div>
 
+    <!-- Nueva sección para Binance BEP-20 -->
+    <div class="content-card">
+      <div class="wallet-section">
+        <div class="wallet-label" data-i18n="walletLabelbinance">Dirección para recibir SOL, USDC, USDT, etc. en la red Binance BEP-20:</div>
+        <img src="billebnb.jpeg" alt="Binance BEP-20 Wallet QR Code" style="max-width: 300px; margin: 0 auto;">
+        
+        <div class="wallet" onclick="copiarAlPortapapeles('binance')">
+          0x36719632eEFbf1ee80ab64eF604f90fB7e09b40e
+          <div class="copied" id="copiado-binance" data-i18n="copied">Copied!</div>
+        </div>
+      </div>
+    </div>
+   
     <div class="download-section">
       <div class="buttons-container">
         <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
@@ -282,18 +295,32 @@
       <p class="disclaimer" data-i18n="notice">
         ⚠️ For Android installation, you'll need to allow installation from unknown sources in your device settings.
       </p>
+    
+      <p class="disclaimer" data-i18n="legalNotice">
+        Aviso Legal: Esta aplicación tiene fines exclusivamente informativos y educativos. No constituye asesoramiento financiero, de inversión, legal ni fiscal. Las decisiones basadas en la información proporcionada por esta aplicación son responsabilidad exclusiva del usuario.
+      </p>
+        
     </div>
 
     <footer data-i18n="footer">Loading...</footer>
   </div>
 
   <script>
-    function copiarAlPortapapeles() {
-      const walletText = "EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP";
+    function copiarAlPortapapeles(tipo) {
+      let walletText;
+      let copiado;
+      
+      if (tipo === 'solana') {
+        walletText = "EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP";
+        copiado = document.getElementById("copiado-solana");
+      } else if (tipo === 'binance') {
+        walletText = "0x36719632eEFbf1ee80ab64eF604f90fB7e09b40e";
+        copiado = document.getElementById("copiado-binance");
+      }
+      
       navigator.clipboard.writeText(walletText).then(() => {
-        const aviso = document.getElementById("copiado");
-        aviso.style.display = "block";
-        setTimeout(() => aviso.style.display = "none", 2000);
+        copiado.style.display = "block";
+        setTimeout(() => copiado.style.display = "none", 2000);
       });
     }
 

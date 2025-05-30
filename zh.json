@@ -1,10 +1,11 @@
 {
-  "title": "Chasesol",
+  "title": "Cazasol",
   "description": "一款旨在帮助您密切追踪 Solana (SOL) 加密货币行为的应用程序。当检测到上涨时建议买入（绿色），当看到下跌时建议卖出（红色）。",
   "explanation": "该应用通过视觉信号提醒您何时买卖：\n绿屏：买入时机（进入交易）。\n红屏：卖出时机（退出交易）。\n当货币波动较大时效果最佳，您每年只需进行约10次交易（5次买入和5次卖出）。通过这种我多年测试的方法，您可以获得良好的年度回报。",
   "donation": "先试用，从小额开始。如果这个应用对您有帮助，请考虑捐赠。",
   "walletLabel": "在 Solana 网络上接收 SOL 的地址：",
   "copied": "已复制！",
+  "walletLabelbinance": "在币安BEP-20网络接收SOL、USDC、USDT等的地址：",
   "downloadBtn": "下载手机APK",
   "downloadWinBtn": "下载Windows应用",
   "notice": "⚠️ 要安装该应用，您需要在Android设备上允许从未知来源安装。",
