@@ -1,13 +1,16 @@
 {
-  "title": "Cazasol",
-  "description": "一款旨在帮助您密切追踪 Solana (SOL) 加密货币行为的应用程序。当检测到上涨时建议买入（绿色），当看到下跌时建议卖出（红色）。",
-  "explanation": "该应用通过视觉信号提醒您何时买卖：\n绿屏：买入时机（进入交易）。\n红屏：卖出时机（退出交易）。\n当货币波动较大时效果最佳，您每年只需进行约10次交易（5次买入和5次卖出）。通过这种我多年测试的方法，您可以获得良好的年度回报。",
-  "donation": "先试用，从小额开始。如果这个应用对您有帮助，请考虑捐赠。",
-  "walletLabel": "在 Solana 网络上接收 SOL 的地址：",
-  "copied": "已复制！",
-  "walletLabelbinance": "在币安BEP-20网络接收SOL、USDC、USDT等的地址：",
+  "title": "追逐索尔",
   "downloadBtn": "下载手机APK",
+  "notice": "⚠️ 要安装此应用，您需要在Android设备设置中允许从未知来源安装。",
   "downloadWinBtn": "下载Windows应用",
-  "notice": "⚠️ 要安装该应用，您需要在Android设备上允许从未知来源安装。",
-  "footer": "我是一名独立开发者，非常感谢您的支持。chasesol4na@gmail.com"
+  "functioningTitle": "工作原理",
+  "instructions": "使用您首选的钱包，跟随此应用程序的信号",
+  "greenSignal": "当屏幕显示绿色时，购买Sol",
+  "redSignal": "当图像显示红色时，卖出并转换为稳定币",
+  "transactionsText": "每年10笔交易，非常简单",
+  "donation": "想象着尝试，从少量开始。如果这个应用帮助了您，请考虑捐赠。",
+  "walletLabel": "在Solana网络上捐赠SOL、USDC、USDT等的地址：",
+  "copied": "已复制！",
+  "legalNotice": "法律声明：此应用程序仅用于信息和教育目的。它不构成财务、投资、法律或税务建议。基于此应用程序提供的信息做出的决定完全由用户负责。",
+  "email": "chasesol4na@gmail.com"
 }

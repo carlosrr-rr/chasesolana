@@ -1,14 +1,16 @@
 {
-  "title": "Cazasol",
-  "description": "An application designed to help you closely track the behavior of Solana (SOL) cryptocurrency. It recommends buying (green) when it detects an uptrend, and selling (red) when it sees a downtrend.",
-  "explanation": "The app alerts you when to buy and sell with visual signals:\nGreen screen: Time to buy (enter the trade).\nRed screen: Time to sell (exit the trade).\nIt works best when the coin is volatile, and you only need to make about 10 transactions per year (5 buys and 5 sells). With this method, which I've tested for years, you can achieve good annual returns.",
-  "donation": "Try it out, start small. If this app helped you, consider making a donation.",
-  "walletLabel": "Address to receive SOL on Solana network:",
-  "copied": "Copied!",
-  "walletLabelbinance": "Address to receive SOL, USDC, USDT, etc. on Binance BEP-20 network:",
-  "downloadBtn": "Download APK for Phone",
+  "title": "Chasesol",
+  "downloadBtn": "Download APK for phone",
+  "notice": "⚠️ To install the app, you'll need to allow installation from unknown sources in your Android device settings.",
   "downloadWinBtn": "Download Windows App",
-  "notice": "⚠️ To install the app, you'll need to allow installation from unknown sources on your Android device.",
-  "legalNotice": "Disclaimer: This application is intended solely for informational and educational purposes. It does not constitute financial, investment, legal, or tax advice. Any decisions made based on the information provided by this application are the sole responsibility of the user.",
-  "footer": "I'm an independent developer and would greatly appreciate your support. chasesol4na@gmail.com"
+  "functioningTitle": "HOW IT WORKS",
+  "instructions": "With your preferred wallet, follow the signals from this application",
+  "greenSignal": "When the screen is green, buy Sol",
+  "redSignal": "When the image is red, sell and switch to a stable coin",
+  "transactionsText": "It's 10 transactions per year, very easy",
+  "donation": "Try it out, start small. If this app helped you, consider making a donation.",
+  "walletLabel": "Address to Donate SOL, USDC, USDT, etc. on Solana network:",
+  "copied": "Copied!",
+  "legalNotice": "Legal Notice: This application is for informational and educational purposes only. It does not constitute financial, investment, legal or tax advice. Decisions based on information provided by this application are the sole responsibility of the user.",
+  "email": "chasesol4na@gmail.com"
 }

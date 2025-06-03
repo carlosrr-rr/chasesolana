@@ -66,6 +66,67 @@
       margin-bottom: 30px;
     }
 
+    .download-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary-color);
+      text-align: center;
+      margin: 40px 0 30px 0;
+      letter-spacing: -0.5px;
+    }
+
+    .cta-button {
+      margin: 15px 10px;
+      padding: 12px 30px;
+      background-color: var(--primary-color);
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 168, 232, 0.3);
+    }
+
+    .cta-button:hover {
+      background-color: #0095d9;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0, 168, 232, 0.4);
+    }
+
+    .cta-button.windows {
+      background-color: #0078d4;
+      box-shadow: 0 4px 10px rgba(0, 120, 212, 0.3);
+    }
+
+    .cta-button.windows:hover {
+      background-color: #106ebe;
+      box-shadow: 0 6px 15px rgba(0, 120, 212, 0.4);
+    }
+
+    .notice {
+      font-size: 0.85rem;
+      color: #7f8c8d;
+      margin: 15px 0;
+      padding: 12px;
+      background-color: #f8f9fa;
+      border-radius: var(--border-radius);
+      border-left: 4px solid #e74c3c;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     img {
       max-width: 100%;
       height: auto;
@@ -76,11 +137,34 @@
 
     .chart-container {
       margin: 40px 0;
+      text-align: center;
     }
 
     .chart-img {
       width: 80%;
       margin: 0 auto;
+    }
+
+    .signal-container {
+      display: flex;
+      align-items: center;
+      margin: 30px 0;
+      gap: 20px;
+    }
+
+    .signal-image {
+      flex: 0 0 200px;
+      max-width: 200px;
+    }
+
+    .signal-text {
+      flex: 1;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .signal-container.reverse {
+      flex-direction: row-reverse;
     }
 
     .wallet-section {
@@ -126,57 +210,10 @@
       font-weight: 600;
     }
 
-    .cta-button {
-      margin: 15px 10px;
-      padding: 12px 30px;
-      background-color: var(--primary-color);
-      color: white;
-      font-size: 1rem;
-      font-weight: 600;
-      border: none;
-      border-radius: var(--border-radius);
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      transition: all 0.3s ease;
-      text-align: center;
-      box-shadow: 0 4px 10px rgba(0, 168, 232, 0.3);
-    }
-
-    .cta-button:hover {
-      background-color: #0095d9;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 15px rgba(0, 168, 232, 0.4);
-    }
-
-    .cta-button.windows {
-      background-color: #0078d4;
-      box-shadow: 0 4px 10px rgba(0, 120, 212, 0.3);
-    }
-
-    .cta-button.windows:hover {
-      background-color: #106ebe;
-      box-shadow: 0 6px 15px rgba(0, 120, 212, 0.4);
-    }
-
-    .download-section {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .buttons-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 15px;
-    }
-
     .disclaimer {
       font-size: 0.85rem;
       color: #7f8c8d;
-      margin-top: 10px;
+      margin: 30px 0;
       padding: 12px;
       background-color: #f8f9fa;
       border-radius: var(--border-radius);
@@ -186,19 +223,24 @@
       margin-right: auto;
     }
 
+    .email {
+      font-size: 1.1rem;
+      color: var(--primary-color);
+      font-weight: 600;
+      text-align: center;
+      margin: 30px 0;
+    }
+
     p {
       margin-bottom: 1.5rem;
       font-size: 1rem;
       color: var(--text-color);
     }
 
-    footer {
+    .centered-text {
       text-align: center;
-      margin-top: 60px;
-      padding-top: 20px;
-      border-top: 1px solid rgba(0, 0, 0, 0.1);
-      font-size: 0.9rem;
-      color: #7f8c8d;
+      font-size: 1rem;
+      margin: 20px 0;
     }
 
     @media (max-width: 768px) {
@@ -219,14 +261,28 @@
         font-size: 0.8rem;
       }
 
-      .buttons-container {
-        flex-direction: column;
-        gap: 10px;
-      }
-
       .cta-button {
         width: 100%;
         max-width: 300px;
+        margin: 10px 0;
+      }
+
+      .signal-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .signal-container.reverse {
+        flex-direction: column;
+      }
+
+      .signal-image {
+        flex: none;
+        max-width: 250px;
+      }
+
+      .section-title {
+        font-size: 1.6rem;
       }
     }
   </style>
@@ -235,74 +291,100 @@
   <div class="container">
     <header>
       <button onclick="location.href='sol.html'" class="title-button" data-i18n="title">
-        Chasesol4na
+        Cazasol
       </button>
-      <p data-i18n="description">Loading...</p>
     </header>
 
-    <div class="content-card">
-      <div class="chart-container">
-        <img src="graf.png" alt="SOL Market Behavior Analysis" class="chart-img">
-      </div>
-      
-      <p data-i18n="explanation">Loading explanation...</p>
-      <p data-i18n="donation">Loading...</p>
-          
+    <!-- Botón de descarga para teléfono -->
+    <div class="download-section">
+      <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
+         class="cta-button" 
+         download 
+         data-i18n="downloadBtn">
+        Descargar APK para teléfono
+      </a>
     </div>
 
+    <!-- Aviso para Android -->
+    <p class="notice" data-i18n="notice">
+      ⚠️ Para instalar la app, deberás aceptar la instalación desde fuentes desconocidas en tu dispositivo Android.
+    </p>
+
+    <!-- Botón de descarga para Windows -->
+    <div class="download-section">
+      <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/cazasol-windows.zip" 
+         class="cta-button windows" 
+         download 
+         data-i18n="downloadWinBtn">
+        Descargar App para Windows
+      </a>
+    </div>
+
+    <!-- Título FUNCIONAMIENTO -->
+    <h2 class="section-title" data-i18n="functioningTitle">FUNCIONAMIENTO</h2>
+
+    <!-- Imagen graf.png -->
+    <div class="chart-container">
+      <img src="graf.png" alt="SOL Market Behavior Analysis" class="chart-img">
+    </div>
+
+    <!-- Texto de instrucciones -->
+    <p class="centered-text" data-i18n="instructions">
+      Con tu billetera de tu preferencia sigue las señales de esta aplicación
+    </p>
+
+    <div class="content-card">
+      <!-- Señal verde -->
+      <div class="signal-container">
+        <img src="verde.jpeg" alt="Señal Verde" class="signal-image">
+        <div class="signal-text" data-i18n="greenSignal">
+          Cuando la pantalla está en verde, compra Sol
+        </div>
+      </div>
+
+      <!-- Señal roja -->
+      <div class="signal-container reverse">
+        <div class="signal-text" data-i18n="redSignal">
+          Cuando la imagen está en rojo, vende y ponte en una moneda estable
+        </div>
+        <img src="rojo.jpeg" alt="Señal Roja" class="signal-image">
+      </div>
+    </div>
+
+    <!-- Texto sobre transacciones -->
+    <p class="centered-text" data-i18n="transactionsText">
+      Son 10 transacciones al año, bien fácil
+    </p>
+
+    <!-- Texto de prueba y donación -->
+    <p class="centered-text" data-i18n="donation">
+      Prueba imaginando, comienza con poco. Si esta app te ayudó, considera hacer una donación.
+    </p>
+
+    <!-- Sección de donación -->
     <div class="content-card">
       <div class="wallet-section">
-        <div class="wallet-label" data-i18n="walletLabel">Wallet address:</div>
+        <div class="wallet-label" data-i18n="walletLabel">
+          Dirección para Donar SOL, USDC, USDT, etc. en la red Solana:
+        </div>
         <img src="bille.jpeg" alt="Solana Wallet QR Code" style="max-width: 300px; margin: 0 auto;">
         
         <div class="wallet" onclick="copiarAlPortapapeles('solana')">
           EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP
-          <div class="copied" id="copiado-solana" data-i18n="copied">Copied!</div>
+          <div class="copied" id="copiado-solana" data-i18n="copied">¡Copiado!</div>
         </div>
       </div>
     </div>
 
-    <!-- Nueva sección para Binance BEP-20 -->
-    <div class="content-card">
-      <div class="wallet-section">
-        <div class="wallet-label" data-i18n="walletLabelbinance">Dirección para recibir SOL, USDC, USDT, etc. en la red Binance BEP-20:</div>
-        <img src="billebnb.jpeg" alt="Binance BEP-20 Wallet QR Code" style="max-width: 300px; margin: 0 auto;">
-        
-        <div class="wallet" onclick="copiarAlPortapapeles('binance')">
-          0x36719632eEFbf1ee80ab64eF604f90fB7e09b40e
-          <div class="copied" id="copiado-binance" data-i18n="copied">Copied!</div>
-        </div>
-      </div>
-    </div>
-   
-    <div class="download-section">
-      <div class="buttons-container">
-        <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/app-release.apk" 
-           class="cta-button" 
-           download 
-           data-i18n="downloadBtn">
-          Download APK from GitHub
-        </a>
-        
-        <a href="https://github.com/carlosrr-rr/chasesolana/releases/download/v1.0.0/cazasol-windows.zip" 
-                class="cta-button windows" 
-           download 
-           data-i18n="downloadWinBtn">
-          Download Windows App
-        </a>
-      </div>
-      
-      <p class="disclaimer" data-i18n="notice">
-        ⚠️ For Android installation, you'll need to allow installation from unknown sources in your device settings.
-      </p>
-    
-      <p class="disclaimer" data-i18n="legalNotice">
-        Aviso Legal: Esta aplicación tiene fines exclusivamente informativos y educativos. No constituye asesoramiento financiero, de inversión, legal ni fiscal. Las decisiones basadas en la información proporcionada por esta aplicación son responsabilidad exclusiva del usuario.
-      </p>
-        
-    </div>
+    <!-- Aviso Legal -->
+    <p class="disclaimer" data-i18n="legalNotice">
+      Aviso Legal: Esta aplicación tiene fines exclusivamente informativos y educativos. No constituye asesoramiento financiero, de inversión, legal ni fiscal. Las decisiones basadas en la información proporcionada por esta aplicación son responsabilidad exclusiva del usuario.
+    </p>
 
-    <footer data-i18n="footer">Loading...</footer>
+    <!-- Email -->
+    <div class="email" data-i18n="email">
+      chasesol4na@gmail.com
+    </div>
   </div>
 
   <script>
@@ -313,9 +395,6 @@
       if (tipo === 'solana') {
         walletText = "EmwtUupV51ZBBVxiQ2173poYEk92Bq9NPBZX3EygkkFP";
         copiado = document.getElementById("copiado-solana");
-      } else if (tipo === 'binance') {
-        walletText = "0x36719632eEFbf1ee80ab64eF604f90fB7e09b40e";
-        copiado = document.getElementById("copiado-binance");
       }
       
       navigator.clipboard.writeText(walletText).then(() => {

@@ -1,14 +1,16 @@
 {
   "title": "Cazasol",
-  "description": "Es una aplicación diseñada para ayudarte a seguir de cerca el comportamiento de la criptomoneda Solana (SOL). Recomienda comprar (verde) cuando detecta una suba, y vender (rojo) cuando ve una caída.",
-  "explanation": "La aplicación te avisa cuándo comprar y vender con señales visuales:\nPantalla verde: Es el momento de comprar (entrar en la operación).\nPantalla roja: Es el momento de vender (salir de la operación).\nFunciona mejor cuando la moneda está inestable, y solo necesitas hacer unas 10 transacciones al año (5 compras y 5 ventas).",
+  "downloadBtn": "Descargar APK para teléfono",
+  "notice": "⚠️ Para instalar la app, deberás aceptar la instalación desde fuentes desconocidas en tu dispositivo Android.",
+  "downloadWinBtn": "Descargar App para Windows",
+  "functioningTitle": "FUNCIONAMIENTO",
+  "instructions": "Con tu billetera de tu preferencia sigue las señales de esta aplicación",
+  "greenSignal": "Cuando la pantalla está en verde, compra Sol",
+  "redSignal": "Cuando la imagen está en rojo, vende y ponte en una moneda estable",
+  "transactionsText": "Son 10 transacciones al año, bien fácil",
   "donation": "Prueba imaginando, comienza con poco. Si esta app te ayudó, considera hacer una donación.",
   "walletLabel": "Dirección para Donar SOL, USDC, USDT, etc. en la red Solana:",
   "copied": "¡Copiado!",
-  "walletLabelbinance": "Dirección para Donar SOL, USDC, USDT, etc. en la red Binance BEP-20:",
-  "downloadBtn": "Descargar APK para teléfono",
-  "downloadWinBtn": "Descargar App para Windows",
-  "notice": "⚠️ Para instalar la app, deberás aceptar la instalación desde fuentes desconocidas en tu dispositivo Android.",
   "legalNotice": "Aviso Legal: Esta aplicación tiene fines exclusivamente informativos y educativos. No constituye asesoramiento financiero, de inversión, legal ni fiscal. Las decisiones basadas en la información proporcionada por esta aplicación son responsabilidad exclusiva del usuario.",
-  "footer": "Soy un programador independiente y agradecería mucho tu apoyo. chasesol4na@gmail.com"
+  "email": "chasesol4na@gmail.com"
 }
