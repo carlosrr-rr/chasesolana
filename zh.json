@@ -1,16 +1,17 @@
 {
-  "title": "追逐索尔",
+  "title": "Cazasol04",
   "downloadBtn": "下载手机APK",
-  "notice": "⚠️ 要安装此应用，您需要在Android设备设置中允许从未知来源安装。",
+  "notice": "⚠️ 要安装应用程序，您必须在Android设备上接受来自未知来源的安装。",
   "downloadWinBtn": "下载Windows应用",
+  "windowsNotice": "💻 下载ZIP文件，双击cazasol并接受来自未知作者",
   "functioningTitle": "工作原理",
   "instructions": "使用您首选的钱包，跟随此应用程序的信号",
-  "greenSignal": "当屏幕显示绿色时，购买Sol",
-  "redSignal": "当图像显示红色时，卖出并转换为稳定币",
+  "greenSignal": "当屏幕为绿色时，购买Sol",
+  "redSignal": "当图像为红色时，出售并转换为稳定币",
   "transactionsText": "每年10笔交易，非常简单",
-  "donation": "想象着尝试，从少量开始。如果这个应用帮助了您，请考虑捐赠。",
+  "donation": "通过想象进行测试，从小开始。如果此应用帮助了您，请考虑捐赠。",
   "walletLabel": "在Solana网络上捐赠SOL、USDC、USDT等的地址：",
   "copied": "已复制！",
-  "legalNotice": "法律声明：此应用程序仅用于信息和教育目的。它不构成财务、投资、法律或税务建议。基于此应用程序提供的信息做出的决定完全由用户负责。",
+  "legalNotice": "法律声明：此应用程序仅用于信息和教育目的。它不构成财务、投资、法律或税务建议。基于此应用程序提供的信息做出的决定完全由用户承担责任。",
   "email": "chasesol4na@gmail.com"
 }

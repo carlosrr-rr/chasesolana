@@ -1,8 +1,9 @@
 {
-  "title": "Cazasol",
+  "title": "Cazasol04",
   "downloadBtn": "Descargar APK para teléfono",
   "notice": "⚠️ Para instalar la app, deberás aceptar la instalación desde fuentes desconocidas en tu dispositivo Android.",
   "downloadWinBtn": "Descargar App para Windows",
+  "windowsNotice": "💻 Descargue el ZIP, doble click sobre cazasol y acepte de autor desconocido",
   "functioningTitle": "FUNCIONAMIENTO",
   "instructions": "Con tu billetera de tu preferencia sigue las señales de esta aplicación",
   "greenSignal": "Cuando la pantalla está en verde, compra Sol",
