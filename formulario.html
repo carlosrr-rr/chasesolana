@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad - Cazasol04</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      color: #1a1a1a;
+    }
+    a {
+      color: #007acc;
+    }
+    
+    /* Estilos para el formulario de inscripción */
+    .email-subscription {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+      padding: 15px;
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    .email-subscription p {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .email-subscription input {
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 14px;
+      width: 200px;
+      margin-right: 8px;
+    }
+    
+    .email-subscription button {
+      padding: 6px 12px;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    
+    .email-subscription button:hover {
+      background-color: #0056b3;
+    }
+    
+    @media (max-width: 600px) {
+      .email-subscription input {
+        width: 160px;
+        margin-right: 5px;
+      }
+      .email-subscription button {
+        padding: 6px 10px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidad</h1>
+  
+  <!-- Sección de inscripción por email -->
+  <div class="email-subscription">
+    <p>Carga tu email y solo te avisamos cuando hay un cambio</p>
+    <input type="email" id="userEmail" placeholder="tu-email@ejemplo.com">
+    <button onclick="subscribeEmail()">Suscribir</button>
+  </div>
+
+  <p><strong>Última actualización:</strong> 5 de junio de 2025</p>
+  <p><strong>Responsable:</strong> Cazasol04 – <a href="mailto:chasesol4na@gmail.com">chasesol4na@gmail.com</a></p>
+
+  <h2>1. Introducción</h2>
+  <p>La aplicación <strong>Cazasol04</strong> respeta la privacidad de los usuarios. Esta política describe cómo se recopila, utiliza y protege la información cuando utilizas nuestra app disponible en Google Play.</p>
+
+  <h2>2. Recopilación de datos</h2>
+  <p>La aplicación <strong>no recopila ningún dato personal</strong>. No pedimos nombre, correo electrónico, ubicación ni ningún otro tipo de dato identificable.</p>
+
+  <h2>3. Inicio de sesión y cuentas</h2>
+  <p>La app <strong>no requiere inicio de sesión ni acceso a cuentas de usuario</strong>.</p>
+
+  <h2>4. Publicidad</h2>
+  <p>La app <strong>no contiene anuncios</strong> de ningún tipo.</p>
+
+  <h2>5. Compartición de datos</h2>
+  <p><strong>No compartimos ningún tipo de información con terceros.</strong> Toda la funcionalidad se ejecuta de forma local en el dispositivo del usuario.</p>
+
+  <h2>6. Almacenamiento local</h2>
+  <p>La aplicación puede utilizar almacenamiento local para guardar configuraciones (como preferencias del usuario), pero <strong>esta información no se transmite fuera del dispositivo</strong>.</p>
+
+  <h2>7. Seguridad</h2>
+  <p>Aunque no recopilamos información sensible, nos esforzamos por seguir buenas prácticas de desarrollo para garantizar la seguridad y privacidad del usuario.</p>
+
+  <h2>8. Cambios en esta política</h2>
+  <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos mediante una actualización de esta sección en nuestra página web oficial.</p>
+
+  <h2>9. Contacto</h2>
+  <p>Si tienes alguna pregunta sobre esta política, puedes contactarnos en:</p>
+  <ul>
+    <li>📧 <strong>Email:</strong> <a href="mailto:chasesol4na@gmail.com">chasesol4na@gmail.com</a></li>
+    <li>🌐 <strong>Sitio web:</strong> <a href="https://carlosrr-rr.github.io/chasesolana/">https://carlosrr-rr.github.io/chasesolana/</a></li>
+  </ul>
+  
+  <script>
+    function subscribeEmail() {
+      const email = document.getElementById('userEmail').value;
+      if (email && email.includes('@')) {
+        // Aquí puedes integrar con tu servicio de email o Google Forms
+        alert('¡Gracias! Te notificaremos cuando haya cambios.');
+        document.getElementById('userEmail').value = '';
+      } else {
+        alert('Por favor ingresa un email válido');
+      }
+    }
+    
+    // Permitir envío con Enter
+    document.getElementById('userEmail').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        subscribeEmail();
+      }
+    });
+  </script>
+</body>
+</html>
