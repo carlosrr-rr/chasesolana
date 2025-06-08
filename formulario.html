@@ -119,9 +119,36 @@
     function subscribeEmail() {
       const email = document.getElementById('userEmail').value;
       if (email && email.includes('@')) {
-        // Aquí puedes integrar con tu servicio de email o Google Forms
+        // Crear un formulario oculto para enviar a Google Forms
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = 'https://docs.google.com/forms/d/e/1FAIpQLScCHO1DPfluHbYAv_lhxBvZs0PtvANDz4f2q0rR-e6Ull8xHA/formResponse';
+        form.target = 'hidden_iframe';
+        
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'entry.485671208'; // Necesitas reemplazar esto
+        input.value = email;
+        
+        form.appendChild(input);
+        document.body.appendChild(form);
+        
+        // Crear iframe oculto para evitar redirección
+        const iframe = document.createElement('iframe');
+        iframe.name = 'hidden_iframe';
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+        
+        form.submit();
+        
         alert('¡Gracias! Te notificaremos cuando haya cambios.');
         document.getElementById('userEmail').value = '';
+        
+        // Limpiar elementos temporales
+        setTimeout(() => {
+          document.body.removeChild(form);
+          document.body.removeChild(iframe);
+        }, 1000);
       } else {
         alert('Por favor ingresa un email válido');
       }
